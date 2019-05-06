@@ -1,6 +1,6 @@
 {
-  "name": "welcome.dappnode.io",
-  "homepage": "https://dapplion.github.io/welcome",
+  "name": "welcome",
+  "homepage": "https://dapplion.github.io/welcome/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
