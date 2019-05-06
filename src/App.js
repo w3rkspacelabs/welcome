@@ -1,6 +1,5 @@
 import React from "react";
 import ClipboardJS from "clipboard";
-import logo from "./logo.svg";
 import "./App.scss";
 // Imgs
 import clipboardIcon from "./img/copyIcon.svg";
