@@ -40,14 +40,20 @@ const steps = [
     )
   },
   {
-    title: "Enter DAppNode",
-    image: readyIcon,
-    component: <a href="http://my.dappnode/">my.dappnode</a>
+    title: "Get your VPN credentials",
+    image: secureFileIcon,
+    component: <a href="http://my.dappnode/#/devices">my.dappnode/#/devices</a>
   },
   {
-    title: "Get your VPN credentials in the device tab",
-    image: secureFileIcon,
-    component: <a href="http://my.dappnode/devices">my.dappnode/devices</a>
+    title: "You're all set!",
+    image: readyIcon,
+    component: (
+      <a href="https://dappnode.github.io/DAppNodeDocs/what-can-you-do/">
+        What can I do
+        <br />
+        with my DAppNode?
+      </a>
+    )
   }
 ];
 
