@@ -7,7 +7,7 @@ import { Card, CardContent, ThemeProvider, CardHeader, Grid } from "@material-ui
 
 export default function Home() {
   const connectionMethods = [
-    { title: "Local", description: "Access via local network", tutorialPath: "/local" },
+    //{ title: "Local", description: "Access via local network", tutorialPath: "/local" },
     { title: "Wi-Fi", description: "START HERE", tutorialPath: "/wifi" },
     { title: "VPN", description: "To connect from anywhere", tutorialPath: "/vpn" },
   ];
