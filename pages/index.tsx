@@ -7,9 +7,24 @@ import { Card, CardContent, ThemeProvider, CardHeader, Grid } from "@material-ui
 
 export default function Home() {
   const connectionMethods = [
-    //{ title: "Local", description: "Access via local network", tutorialPath: "/local" },
-    { title: "Wi-Fi", description: "START HERE", tutorialPath: "/wifi" },
-    { title: "VPN", description: "To connect from anywhere", tutorialPath: "/vpn" },
+    /* {
+      title: "Local",
+      description: "Access via local network",
+      aditionalContent: "",
+      tutorialPath: "/local",
+    }, */
+    {
+      title: "Wi-Fi",
+      description: "Connect to DAppNodeWifi",
+      aditionalContent: "START HERE",
+      tutorialPath: "/wifi",
+    },
+    {
+      title: "VPN",
+      description: "To connect from anywhere",
+      aditionalContent: "",
+      tutorialPath: "/vpn",
+    },
   ];
   return (
     <div className="home">
@@ -34,6 +49,9 @@ export default function Home() {
                 >
                   <CardHeader title={method.title}></CardHeader>
                   <CardContent children={method.description}></CardContent>
+                  <CardContent>
+                    <h4>{method.aditionalContent}</h4>
+                  </CardContent>
                 </Card>
               </Link>
             </Grid>
