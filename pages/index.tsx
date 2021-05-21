@@ -7,12 +7,12 @@ import { Card, CardContent, ThemeProvider, CardHeader, Grid } from "@material-ui
 
 export default function Home() {
   const connectionMethods = [
-    /* {
+    {
       title: "Local",
       description: "Access via local network",
       aditionalContent: "",
       tutorialPath: "/local",
-    }, */
+    },
     {
       title: "Wi-Fi",
       description: "Connect to DAppNodeWifi",

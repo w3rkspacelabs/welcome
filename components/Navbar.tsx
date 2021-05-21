@@ -21,9 +21,9 @@ export default function Navbar() {
           <Link href="/wifi">
             <a>Wi-Fi</a>
           </Link>
-          {/*<Link href="/local">
+          <Link href="/local">
             <a>Local</a>
-  </Link>*/}
+          </Link>
           <Link href="/vpn">
             <a>VPN</a>
           </Link>
