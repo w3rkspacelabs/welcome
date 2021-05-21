@@ -17,7 +17,7 @@ function OpenVpnClient() {
       <h3>
         <SiOpenvpn /> Open-VPN
       </h3>
-      <div className="vpn-step-content">
+      <div className="vpn-step-content-text">
         <a href={params.OPENVPN_DAPPNODE_URL}>Get DAppNode Wireguard package</a>
         <br />
         <a href={params.OPENVPN_DOWNLOAD_URL}>Download Wireguard desktop</a>
@@ -33,7 +33,7 @@ function WireguardClient() {
         <SiWireguard /> Wireguard
       </h3>
 
-      <div className="vpn-step-content">
+      <div className="vpn-step-content-text">
         <a href={params.WIREGUARD_DAPPNODE_URL}>Get DAppNode Wireguard package</a>
         <br />
         <a href={params.WIREGUARD_DOWNLOAD_URL}>Download Wireguard desktop</a>
@@ -48,15 +48,13 @@ function WireguardCredentials() {
       <h3>
         <SiWireguard /> Wireguard
       </h3>
-      <div className="vpn-step-content">
+      <div className="vpn-step-content-text">
         <p>
           Get your Wireguard credentials directly{" "}
           <a href={params.WIREGUARD_DAPPNODE_URL}>from the UI</a>
           <br />
           Get your Wireguard credentials from the command line executing the command:{" "}
-          <pre>
-            <code>dappnode_wireguard</code>
-          </pre>
+          <code>dappnode_wireguard</code>
         </p>
       </div>
     </div>
@@ -69,15 +67,13 @@ function OpenVpnCredentials() {
       <h3>
         <SiOpenvpn /> Open-VPN
       </h3>
-      <div className="vpn-step-content">
+      <div className="vpn-step-content-text">
         <p>
           Get your Open-Vpn credentials directly{" "}
           <a href={params.OPENVPN_DAPPNODE_URL}>from the UI</a>
           <br />
           Get your Wireguard credentials from the command line executing the command:{" "}
-          <pre>
-            <code>dappnode_connect</code>
-          </pre>
+          <code>dappnode_connect</code>
         </p>
       </div>
     </div>
