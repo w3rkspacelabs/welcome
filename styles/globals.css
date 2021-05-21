@@ -28,8 +28,7 @@ footer {
 
 main {
   flex: 1;
-  margin: 20px;
-  display: flex;
+  margin: 30px;
   align-items: center;
   justify-content: center;
 }
@@ -74,7 +73,35 @@ main {
 /*CONTENT*/
 
 .home-intro {
+  margin-top: 40px;
   margin-bottom: 60px;
+}
+
+.connect-content {
+  margin-bottom: 40px;
+}
+
+.step-explanation {
+  margin-top: 50px;
+}
+
+.vpn-step {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.vpn-step-content {
+  text-align: start;
+}
+
+.step-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step-content img {
+  margin-right: 20px;
 }
 
 /*FOOTER*/
@@ -87,8 +114,11 @@ main {
 }
 
 /*Links*/
+.footer-links a {
+  padding-left: 30px;
+}
+
 a {
-  margin-left: 30px;
   color: #2fbcb2;
   font-size: 18px;
   font-weight: 800;

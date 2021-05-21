@@ -23,10 +23,10 @@ export default function StepperConnection({
             <StepLabel>{step.title}</StepLabel>
 
             {step.component ? (
-              <>
+              <div className="step-content">
                 <img src={params.basePath + step.image} />
                 <step.component />
-              </>
+              </div>
             ) : (
               <img src={params.basePath + step.image} />
             )}

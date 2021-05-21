@@ -5,9 +5,8 @@ const theme = createMuiTheme({
     MuiStepper: { root: { backgroundColor: "#eee", marginTop: 20, color: "#393e46" } },
     MuiStep: {
       horizontal: {
-        justifyContent: "space-around",
-        paddingLeft: 16,
-        paddingRight: 16,
+        paddingLeft: 18,
+        paddingRight: 18,
       },
     },
     MuiStepConnector: {
@@ -26,6 +25,7 @@ const theme = createMuiTheme({
     },
     MuiStepLabel: {
       label: {
+        fontSize: "larger",
         marginBottom: 10,
         color: "#393e46",
       },

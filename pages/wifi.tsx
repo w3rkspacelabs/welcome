@@ -11,7 +11,7 @@ import { ActionStep } from "../utils/types";
 
 function WifiCredentials() {
   return (
-    <div>
+    <div className="wifi-credentials">
       <p>
         <AccountCircleIcon /> {params.SSID}
       </p>
