@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="navbar-logo">
-        <img src={params.basePath + "/dappnode-logo.png"} />
+        <img src={"/dappnode-logo.png"} />
       </div>
       <div className="navbar-title-links">
         <div className="navbar-title">

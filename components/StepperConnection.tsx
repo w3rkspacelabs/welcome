@@ -7,13 +7,7 @@ import { ActionStep } from "../utils/types";
 import { firstStep, lastStep } from "./CommonSteps";
 import { params } from "../utils/params";
 
-export default function StepperConnection({
-  steps,
-  avahi = false,
-}: {
-  steps: ActionStep[];
-  avahi?: boolean;
-}) {
+export default function StepperConnection({ steps, avahi = false }: { steps: ActionStep[]; avahi?: boolean }) {
   steps = [firstStep, ...steps, lastStep({ avahi })];
   return (
     <ThemeProvider theme={theme}>
@@ -24,11 +18,11 @@ export default function StepperConnection({
 
             {step.component ? (
               <div className="step-content">
-                <img src={params.basePath + step.image} />
+                <img src={step.image} />
                 <step.component />
               </div>
             ) : (
-              <img src={params.basePath + step.image} />
+              <img src={step.image} />
             )}
           </Step>
         ))}
