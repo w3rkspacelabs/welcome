@@ -33,9 +33,7 @@ export default function Wifi() {
   return (
     <div className="connect-content">
       <h1>Wi-Fi</h1>
-      <p>
-        Scan for Wi-Fi networks and connect to DAppNodeWifi using the default credentials (step 2)
-      </p>
+      <p>Scan for Wi-Fi networks and connect to DAppNodeWifi using the default credentials (step 2)</p>
       <StepperConnection steps={steps} />
     </div>
   );
