@@ -8,7 +8,7 @@ export const params = {
   WIREGUARD_DAPPNODE_URL: "http://my.dappnode/#/installer/wireguard.dnp.dappnode.eth",
   // Endpoints
   DAPPNODE_ENDPOINT: "http://my.dappnode",
-  DAPPNODE_AVAHI_ENDPOINT: "http://my.dappnode.local",
+  DAPPNODE_AVAHI_ENDPOINT: "http://dappnode.local",
   // Wi-Fi
   SSID: "DAppNodeWifi",
   PASSWORD: "dappnode",
