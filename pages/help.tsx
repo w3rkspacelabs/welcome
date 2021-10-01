@@ -30,10 +30,12 @@ export default function Help() {
         </p>
         <p>SSID: DAppNodeWIFI</p>
         <p>Password: dappnode</p>
-        <p>You can get more information about this kind of access on our </p>
-        <a href="https://docs.dappnode.io/user-guide/ui/access/wifi">
-          Documentation
-        </a>
+        <p>
+          You can get more information about this kind of access on our{" "}
+          <a href="https://docs.dappnode.io/user-guide/ui/access/wifi">
+            Documentation
+          </a>
+        </p>
         <h2>Vpn</h2>
         <p>
           Once you have your dappnode turned on, set up and you can access via
@@ -59,11 +61,11 @@ export default function Help() {
         </p>
         <h4>I don't know how to set up the client</h4>
         <p>
-          You can find a complete guide about how to configure the vpn client in
+          You can find a complete guide about how to configure the vpn client in{" "}
+          <a href="https://docs.dappnode.io/user-guide/ui/access/vpn">
+            this link
+          </a>
         </p>
-        <a href="https://docs.dappnode.io/user-guide/ui/access/vpn">
-          this link
-        </a>
         <h2>Contact to the support</h2>
         You can contact the team for support by Discord and Forum.
       </div>
