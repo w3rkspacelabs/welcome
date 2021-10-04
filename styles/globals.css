@@ -9,7 +9,7 @@
 body {
   background-color: #eee;
   color: #393e46;
-  text-align: center;
+  /* text-align: center;*/
   font-family: "Nunito";
 }
 
@@ -75,20 +75,27 @@ main {
 .home-intro {
   margin-top: 40px;
   margin-bottom: 60px;
+  text-align: center;
+}
+.home {
+  text-align: center;
 }
 
 .connect-content {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .step-explanation {
   margin-top: 50px;
+  text-align: center;
 }
 
 .vpn-step {
   margin-top: 30px;
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .vpn-step-content-text {
@@ -102,6 +109,42 @@ main {
 }
 .step-content img {
   margin-right: 20px;
+}
+
+/* Help section */
+
+h1.help-content {
+  /* text-align: center; */
+  font-size: 300%;
+}
+
+h2.help-content {
+  /* text-align: center;*/
+  font-size: 200%;
+}
+
+h3.help-content {
+  /* text-align: center;*/
+  font-size: 150%;
+}
+
+h4.help-content {
+  /* text-align: center;*/
+  font-size: 120%;
+}
+div.help-content {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+div.help-section {
+  margin-left: 11%;
+  margin-right: 5%;
+}
+
+ul.help-content {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
 }
 
 /*FOOTER*/
