@@ -27,6 +27,9 @@ export default function Navbar() {
           <Link href="/vpn">
             <a>VPN</a>
           </Link>
+          <Link href="/help">
+            <a>Help</a>
+          </Link>
         </div>
       </div>
     </nav>
