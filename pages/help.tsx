@@ -88,7 +88,7 @@ export default function Help() {
         </div>
         <h2 className="help-content">Contact to the support</h2>
         <div className="help-content">
-          You can contact the team for support by Discord and Forum.
+          You can contact to the team for support by Discord and Forum.
         </div>
       </div>
     </>
