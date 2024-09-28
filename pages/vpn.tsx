@@ -18,9 +18,9 @@ function OpenVpnClient() {
         <SiOpenvpn /> Open-VPN
       </h3>
       <div className="vpn-step-content-text">
-        <a href={params.OPENVPN_DAPPNODE_URL}>Get DAppNode Wireguard package</a>
+        <a href={params.OPENVPN_DAPPNODE_URL}>Get DAppNode OpenVPN package</a>
         <br />
-        <a href={params.OPENVPN_DOWNLOAD_URL}>Download Wireguard desktop</a>
+        <a href={params.OPENVPN_DOWNLOAD_URL}>Download OpenVPN desktop</a>
       </div>
     </div>
   );
